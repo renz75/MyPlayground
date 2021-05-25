@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Playground</string>
+    <string name="textViewPlay">Play</string>
+    <string name="textViewQuiz">Where is this flag come from?</string>
+    <string name="imageViewFlag">flag</string>
+    <string name="buttonLiberia">Liberia</string>
+    <string name="buttonTexas">Texas</string>
+    <string name="buttonChile">Chile</string>
+    <string name="contentDescripQuestion">questionMark</string>
+    <string name="buttonHint">hint</string>
+    <string name="imageViewMap">map</string>
+    <string name="textViewFlag">Where is this flag from?</string>
+
+
+</resources>

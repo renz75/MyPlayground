@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/contentDescripQuestion"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewPlay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:text="@string/textViewPlay"
+            android:textColor="#8766C1"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFlag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/textViewFlag"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewFlag"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:contentDescription="@string/imageViewFlag"
+            app:srcCompat="@drawable/chileflag" />
+
+        <Button
+            android:id="@+id/buttonLiberia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonLiberia"
+            android:textSize="20sp"
+            app:backgroundTint="#03A9F4" />
+
+        <Button
+            android:id="@+id/buttonTexas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonTexas"
+            android:textSize="20sp"
+            app:backgroundTint="#03A9F4" />
+
+        <Button
+            android:id="@+id/buttonChile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonChile"
+            android:textSize="20sp"
+            app:backgroundTint="#03A9F4" />
+
+        <ImageView
+            android:id="@+id/imageViewQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:contentDescription="@string/contentDescripQuestion"
+            app:srcCompat="@drawable/questionmark" />
+
+        <Button
+            android:id="@+id/buttonHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="100dp"
+            android:insetRight="100dp"
+            android:text="@string/buttonHint"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#009688" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
